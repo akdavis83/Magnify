@@ -87,7 +87,7 @@ $(function() {
     });
 
     $('.magniflier').on('mouseleave', function() {
-      ui.glass.fadeOut(10000); // Hide the magnifying glass
+      ui.glass.fadeOut(100000); // Hide the magnifying glass
     });
 
     ui.glass.on('mouseout', function() {
