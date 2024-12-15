@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+.container {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-position-x: 500px;
+}
+
+.handle {
+  opacity: 1;
+  width: 74px;
+  height: 340px;
+  z-index: 2;
+  transform: rotate(-46deg);
+  position: absolute;
+  left: 760px;
+  top: 480px;
+  border-radius: 25px;
+  background: #434b4d;
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2), -27px 46px 81px -1px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(90deg, #434b4d 0%, #5c6466 9%, #50585b 17%, #212a29 22%, #cad1d8 32%, #cad1d8 38%, #556264 44%, #868f91 50%, #556264 55%, #e6e5ec 62%, #e6e5ec 68%, #737a7e 77%, #2a3332 83%, #9ba2aa 91%, #535759 96%, black 100%);
+}
+
+.connect1 {
+  width: 55px;
+  height: 44px;
+  transform: rotate(-46deg);
+  position: absolute;
+  left: 630px;
+  top: 495px;
+  box-shadow: -4px 0px 5px 0px rgba(0, 0, 0, 0.4), -27px 46px 81px -1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background: #c4aa94;
+  background: linear-gradient(90deg, #c4aa94 0%, #ecdbcb 19%, #ecdbcb 30%, #694d28 33%, #694d28 56%, white 62%, white 73%, #b6aea7 78%, #ead4bd 83%, #ead4b0 93%, #fdfefc 100%);
+}
+
+.connect-small {
+  width: 59px;
+  height: 12px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 587px;
+  top: 470px;
+  border-radius: 10px;
+  background: white;
+  background: linear-gradient(90deg, white 0%, #fbf4ec 11%, #fbf4ec 36%, #644a27 38%, #644a27 42%, #866e50 50%, #fbf4ec 63%, #fbf4ec 75%, #9a8169 78%, #9a8169 84%, #a6917b 87%, #fbf4ec 92%, #fbf4ec 100%);
+  border: 1px solid #D3B9A8;
+  border-bottom: 2px solid #b8a090;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75), -4px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.connect3 {
+  left: 598px;
+  top: 480px;
+  transform: rotate(-44deg);
+}
+
+.connect4 {
+  width: 63px;
+  height: 12px;
+  left: 605px;
+  top: 490px;
+  transform: rotate(-44deg);
+}
+
+.connect-bottom {
+  width: 70px;
+  height: 14px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 640px;
+  top: 527px;
+  border-radius: 10px;
+  border: 1px solid #baa38c;
+  background: #baa38c;
+  z-index: 4;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
+  background: linear-gradient(90deg, #baa38c 0%, #fcfefb 8%, #fcfefb 26%, #4e381d 36%, #5d4624 50%, #98784a 63%, #f4e1d0 73%, #eddccb 80%, #c4b19b 85%, #5d4624 87%, #fcfef9 90%, #fcfef9 97%, #baa38c 100%);
+}
+
+.bottom {
+  width: 70px;
+  height: 14px;
+  transform: rotate(0deg);
+  position: absolute;
+  left: 885px;
+  top: 760px;
+  border-radius: 10px;
+  border: 1px solid #baa38c;
+  background: #baa38c;
+  background: linear-gradient(90deg, #baa38c 0%, #fcfefb 8%, #fcfefb 22%, #4e381d 33%, #5d4624 50%, #98784a 63%, #f4e1d0 73%, #eddccb 80%, #c4b19b 85%, #5d4624 87%, #fcfef9 90%, #fcfef9 97%, #baa38c 100%);
+  z-index: 2;
+  transform: rotate(-45deg);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75), -4px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #837465;
+}
+
+.bottom2 {
+  width: 60px;
+  height: 10px;
+  position: absolute;
+  left: 903px;
+  top: 772px;
+  border-radius: 10px;
+  border: 1px solid #baa38c;
+  border-bottom: 2px solid #837465;
+  background: #baa38c;
+  background: linear-gradient(90deg, #baa38c 0%, #fcfefb 8%, #fcfefb 22%, #4e381d 33%, #5d4624 50%, #98784a 63%, #f4e1d0 73%, #eddccb 80%, #c4b19b 85%, #5d4624 87%, #fcfef9 90%, #fcfef9 97%, #baa38c 100%);
+  transform: rotate(-45deg);
+  z-index: 2;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75), -4px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bottom3 {
+  width: 53px;
+  height: 70px;
+  background: #eae8e1;
+  background: radial-gradient(circle, #eae8e1 21%, #926f49 67%, #432f0e 81%, #926f49 88%, #432f0e 90%);
+  position: absolute;
+  left: 899px;
+  top: 734px;
+  border-radius: 25px;
+  border: 1px solid #baa38c;
+  transform: rotate(-45deg);
+  z-index: 1;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75), -4px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.outer {
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background: #aab1bb;
+  background: linear-gradient(322deg, #aab1bb 0%, #b4b5bb 25%, #363e40 47%, #2f3639 67%, #696e72 97%);
+  position: absolute;
+  left: 230px;
+  top: 110px;
+  border: 1px solid black;
+  box-shadow: inset 0px -68px 25px -52px rgba(228, 207, 207, 0.5), -27px 46px 51px -21px rgba(0, 0, 0, 0.2);
+}
+
+.circle1 {
+  width: 420px;
+  height: 420px;
+  background: #212a26;
+  background: linear-gradient(322deg, #212a26 0%, #212a26 10%, #d5d9db 11%, #abb2b9 16%, #959aa5 22%, #262d2c 25%, #feffff 33%, #a3aab4 35%, #e3e4e8 37%, #cfd4d8 46%, #717c80 51%, #404749 57%, #404749 64%, #a4abb3 70%, #a4abb3 75%, #6b7576 80%, #a0a5a9 86%, #e2e0e1 90%, #e2e0e1 94%, #e2e0e1 97%);
+  border: 1px solid white;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  left: 240px;
+  top: 120px;
+}
+
+.circle2 {
+  opacity: 1;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  left: 250px;
+  top: 130px;
+  border: 1px solid black;
+  background: #e2e3e5;
+  background: radial-gradient(circle, #e2e3e5 54%, #cacdd4 64%, #a3aab2 71%);
+  border-bottom: 10px solid rgba(0, 0, 0, 0.7);
+}
+
+.inner {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: white;
+  background: radial-gradient(circle, white 6%, white 40%, #f5f6f8 59%, #eaebec 71%, #9b9a9a 100%);
+  position: absolute;
+  left: 280px;
+  top: 160px;
+  border: 2px solid white;
+  opacity: 1;
+  z-index: 10;
+  box-shadow: inset 0px 0px 45px 9px #D7DADF;
+}
+
+.highlight1 {
+  width: 90px;
+  height: 70px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 505px;
+  top: 180px;
+  transform: rotate(40deg);
+  background: #e4e4e4;
+  background: linear-gradient(322deg, #e4e4e4 0%, white 100%);
+}
+
+.highlight2 {
+  width: 300px;
+  height: 320px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 275px;
+  top: 190px;
+  background: white;
+}
+
+.text {
+  font-family: "Source Code Pro", monospace;
+  font-size: 2rem;
+  position: absolute;
+  top: 750px;
+  left: 100px;
+}
+.glass {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: crosshair;
+  
+  /* Multiple box shadows to achieve the glass effect */
+  box-shadow:
+    0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25), 
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  
+  /* hide the glass by default */
+  display: none;
+}
